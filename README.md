@@ -1,0 +1,36 @@
+# mywebjars
+基于webjars要求的jar包格式封装前端相关类库，已打包的前端JS类库如下
+<modules>
+        <module>DD_belatedPNG</module>
+        <module>html5shiv</module>
+        <module>respond</module>
+        <module>jselect</module>
+        <module>squid</module>
+        <module>swfobject</module>
+        <module>datatables</module>
+        <module>fontIconPicker</module>
+        <module>hui</module>
+        <module>hui-admin</module>
+        <module>Hui-iconfont</module>
+        <module>jquery</module>
+        <module>jquery-icheck</module>
+        <module>jquery-form</module>
+        <module>jquery-serializeObject</module>
+        <module>jquery-treetable</module>
+        <module>jquery-validation</module>
+        <module>layer</module>
+        <module>mask</module>
+        <module>My97DatePicker</module>
+        <module>syntax-highlighter</module>
+        <module>Validform</module>
+        <module>zTree</module>
+        <module>CryptoJS</module>
+        <module>fastclick</module>
+        <module>Font-Awesome</module>
+        <module>jquery-weui</module>
+        <module>jquery-showLoading</module>
+        <module>tencent-msgbox</module>
+        <module>sweetalert</module>
+        <module>Swipper</module>
+        <module>Buckets-JS</module>
+    </modules>
