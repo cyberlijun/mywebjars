@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.lijun.webjars</groupId>
+    <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <properties>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
+    </properties>
+
+    <modules>
+        <module>DD_belatedPNG</module>
+        <module>html5shiv</module>
+        <module>respond</module>
+        <module>jselect</module>
+        <module>squid</module>
+        <module>swfobject</module>
+        <module>datatables</module>
+        <module>fontIconPicker</module>
+        <module>hui</module>
+        <module>hui-admin</module>
+        <module>Hui-iconfont</module>
+        <module>jquery</module>
+        <module>jquery-icheck</module>
+        <module>jquery-form</module>
+        <module>jquery-serializeObject</module>
+        <module>jquery-treetable</module>
+        <module>jquery-validation</module>
+        <module>layer</module>
+        <module>mask</module>
+        <module>My97DatePicker</module>
+        <module>syntax-highlighter</module>
+        <module>Validform</module>
+        <module>zTree</module>
+        <module>CryptoJS</module>
+        <module>fastclick</module>
+        <module>Font-Awesome</module>
+        <module>jquery-weui</module>
+        <module>jquery-showLoading</module>
+        <module>tencent-msgbox</module>
+        <module>sweetalert</module>
+        <module>Swipper</module>
+        <module>Buckets-JS</module>
+    </modules>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <targetPath>${destDir}</targetPath>
+            </resource>
+        </resources>
+    </build>
+
+</project>
